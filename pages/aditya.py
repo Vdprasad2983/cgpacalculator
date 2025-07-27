@@ -66,7 +66,7 @@ def cus_person(roll,data):
     if x.empty:
         st.info("select atleast one roll number")
     else:
-        st.dataframe(static_df[["S.No","Roll.No","Student Name","I-I SGPA","I-II SGPA","II-I SGPA","II-II SGPA","III-I SGPA","III-II SGPA","IV-I SGPA","IV-II SGPA","CGPA","Total Credits","Total Backlogs","Percentage"]],hide_index=True,on_select="ignore")
+        st.dataframe(static_df[["S.No","Roll.No","Student Name","I-I SGPA","I-II SGPA","II-I SGPA","II-II SGPA","III-I SGPA","III-II SGPA","IV-I SGPA","IV-II SGPA","CGPA","Total Credits","Total Backlogs","Percentage"]],hide_index=True)
 
 
 def innermain(data):
